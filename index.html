@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="brocode camp">
+        <title>youtube clone</title>
+        
+
+    </head>
+    
+     <body>
+        <div>
+            <i class="fa-solid fa-bar fa-xl" style="color: rgb(110, 88, 88)"></i>
+            <a href="https://www.youtube.com/" target="_blank">
+            <img src="menubar_image.png" width="35" height=""/>
+            <img src="youtube_image.png" width="91" height=""/><br>
+            </a>
+            <input type="search" placeholder="search">
+            <img src="search_image.png" width="35" height="30"/><br>
+            <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #57595b;"></i><br>
+             
+            <iframe src="https://www.youtube.com/embed/ji5HwS3bhlU" width="550" height="315"></iframe>
+            <h3>To Beat the iPhone, You Must... Be the iPhone?</h3>
+            <p>2,80,00,000 M views</p><br>
+            
+        <div style="color: gray;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPdJREFUSEvVldsRgjAQRQ+daCfaiVaiVqKdaCfYic51skwI5IGzfLA/Ekn23Nxslo6Vo1s5P0sBT+AQRD2AG/AuiVwCiJNbzjMgUDZaAVfgEtQegVMYuwCU7B4kKvkL+CTjv3cgv2WNwtTugD7sZl8rkpJFlkg55LMACrNLB6znYsQAqZXPViW2UJbIGgupFzwXmi+4fkdlmluY7nKumlLYICpebAdn/6Xjmhv2frRuc4BJhXnvYFJhnoC4rHU/fj3KExC3k+ECegKsfEcX0AuQbR9egGz7iAG1FtBy0YbDtclpL1JbLvWZEmT229D6wWlRPztn+4AvqdhDGX++ewsAAAAASUVORK5CYII="/> 
+            <span>120k</span>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQdJREFUSEvFlesNwjAMhK+bwCawCUwCTAKbwCawCeir4iqYtHFaVfhPX+mdfb44nVaObmV8/Y3gIOkkaTOjwoekiySuxQoAfc4Azn8BfD9GcE7ZkwX3tXinBSb317PvQZ79VtKrhi6picCyBxiCSDQR3CXtUpMi8pBAmMDkacm+iaC1uSZfuAKsSRXYq/dwMMIEfmEQP96D1QlMoqnMb5KOboEllr8ejJJvNOx5rcwf7zCztR8Tk7OoVEHJYfmmxBjFXR8d1yaDOYxpS7XEpOsiBH4DIiXSEPSDvoxGhCCXBzAb5aWG/xC1EPhG9vO+FhECJOJ0Qxruh8OkBs73CEEEZ1EPFhF8ADO7RRmytBu+AAAAAElFTkSuQmCC"/>
+             <span>111k</span>
+             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARlJREFUSEvtlNkNwkAMRCedQCdQCVAJUAlQCVAJdAIatBMZx3tESiQ+WGk/EtnzfG6HmU83sz5+ArAAcALwBLAbm3EtA4mvknDNfsAvOXhxOk8GsOIsDb8nA3jxJYBXAhDGewdwS7fYFp9yJE6Bh8nCChJySSCCiz3IiVsn2vCy6RsDJYgTNoDYDK7JkUYsS8shiCNMKP3WHmIBKkNoWKERso0gFsAomEU2GlOSqN4K8AjgoICiJkcQlU9+dprOKXIbIEv8CSJanCgTRsejyLUXAqrJ+1SqPovcZnpItGhssJ8mLSWBbHhx9S0kV1L9Z8392FYBdPaQ2tul/vXBtzxeY55rBaRRH/86tmyftWnJYKzml/0fUC3fGzUESBn3uAGyAAAAAElFTkSuQmCC"/>
+             <span>share</span> 
+            
+        </div>
+        <img src="channels4_profile.jpg" width="40" height="40"/>
+        <span style="font-size: 20px;"><strong>Marques Brownlee</strong></span>
+
+        <button style="color: gray;" onclick="displayform()">subscribe</button>
+        <i style="color: #57595b;" class='bx bxs-like bx-tada'></i>
+         
+        <form id="showform">
+            <fieldset>
+                <legend>personal details</legend>
+                <label for="salutation">salutation</label>
+                <select id="salutation" name="salutation">
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+                <option value="other">other.</option>
+                </select><br><br>
+            <label for="fname">first name:</label>
+            <input type="text" id="firstname"><br><br>
+            <label for="lname">last name:</label>
+            <input type="text" id="lastname"><br><br>
+            <label>gender:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">female</label><br><br>
+            <label for="email">email:</label>
+            <input type="text" id="email"><br><br>
+            <label for="dob">date of birth:</label>
+            <input type="date" id="dob"><br><br>
+            <label for="address">address:</label><br>
+            <textarea rows="3" cols="15" id="address"></textarea><br><br>
+            <button type="submit">submit</button>
+            </fieldset>
+        </form>
+        <p>Product information and final pricing are determined by merchants and may change. You may be charged additional fees, such as delivery and handling fees, which may vary. Click on the products below or visit the merchant's shop for more information, including product availability, the final price that </p>
+        
+        
+        </div>
+     </body>   
+</html>
